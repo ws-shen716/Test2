@@ -8,6 +8,7 @@ public class Main {
 		int n = 0;
 		Vector<String> v = new Vector<String>();
 		String str = "";
+		
 		while (!((str = in.next()).equals("###"))) {
 			n++;
 			v.add(str);
